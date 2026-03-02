@@ -1,0 +1,15 @@
+{
+  "name": "writing-assistant",
+  "version": "1.0.0",
+  "description": "Real-time writing companion. Suggest related notes, check consistency, generate summaries, and improve writing quality.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "writing", "real-time", "assistant"],
+  "usage": "/writing-assistant [action]",
+  "examples": [
+    "/writing-assistant enhance - 增强当前笔记的写作质量",
+    "/writing-assistant summarize - 生成当前笔记的摘要",
+    "/writing-assistant check-consistency - 检查与其他笔记的一致性",
+    "/writing-assistant suggest-structure - 建议笔记结构优化"
+  ]
+}

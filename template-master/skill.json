@@ -1,0 +1,16 @@
+{
+  "name": "template-master",
+  "version": "1.0.0",
+  "description": "Dynamic template system for Obsidian. Generate context-aware templates for daily notes, meeting notes, book reviews, and more.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "templates", "automation", "productivity"],
+  "usage": "/template-master [template-type]",
+  "examples": [
+    "/template-master daily-note - 创建今日笔记（自动填充日期、天气、待办）",
+    "/template-master meeting - 生成会议记录模板",
+    "/template-master book-review - 读书笔记模板",
+    "/template-master project-brief - 项目简报模板",
+    "/template-master custom - 创建自定义模板"
+  ]
+}

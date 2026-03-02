@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-organizer",
+  "version": "1.0.0",
+  "description": "Automatically organize and maintain your Obsidian vault. Fix broken links, standardize frontmatter, detect duplicates, and keep your knowledge base clean.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "automation", "organization", "vault-management", "cleanup"],
+  "usage": "/obsidian-organizer [action]",
+  "examples": [
+    "/obsidian-organizer scan - 扫描整个 vault，报告问题",
+    "/obsidian-organizer fix-links - 修复所有断裂的 wiki 链接",
+    "/obsidian-organizer standardize-frontmatter - 统一所有笔记的 YAML 格式",
+    "/obsidian-organizer find-duplicates - 检测重复内容",
+    "/obsidian-organizer auto-organize - 根据内容自动移动文件到对应文件夹"
+  ],
+  "actions": {
+    "scan": "扫描 vault 并生成健康报告",
+    "fix-links": "修复断裂的 [[wiki-links]]",
+    "standardize-frontmatter": "统一 YAML frontmatter 格式",
+    "find-duplicates": "检测并报告重复笔记",
+    "auto-organize": "基于内容智能移动文件",
+    "clean-orphans": "清理孤立笔记（无链接指向）",
+    "merge-tags": "合并相似标签（如 #AI 和 #ai）"
+  }
+}

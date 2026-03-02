@@ -1,0 +1,22 @@
+{
+  "name": "html2word",
+  "version": "1.0.0",
+  "description": "Generate Word-compatible HTML files with perfect formatting preservation. Supports mathematical formulas (LaTeX), images, multi-level lists, and inline CSS styling.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["productivity", "office", "word", "html", "formatting", "latex"],
+  "usage": "/html2word [options]",
+  "examples": [
+    "/html2word --input note.md --style 宋体小四",
+    "/html2word --formula --title \"Report Title\"",
+    "/html2word --reference template.docx --content new_content.md"
+  ],
+  "options": {
+    "input": "Source file (Markdown or text)",
+    "style": "Font style (e.g., 宋体小四, Arial12pt)",
+    "formula": "Enable LaTeX formula support with VBA macro",
+    "title": "Document title",
+    "reference": "Reference Word file for style extraction",
+    "output": "Output HTML file path (default: same as input)"
+  }
+}

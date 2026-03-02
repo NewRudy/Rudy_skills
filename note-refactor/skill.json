@@ -1,0 +1,15 @@
+{
+  "name": "note-refactor",
+  "version": "1.0.0",
+  "description": "Discover hidden connections between notes, suggest wiki-links, identify themes, and refactor your knowledge graph.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "knowledge-graph", "connections", "refactoring"],
+  "usage": "/note-refactor [action]",
+  "examples": [
+    "/note-refactor discover - 发现潜在的笔记关联",
+    "/note-refactor suggest-links - 为当前笔记建议添加链接",
+    "/note-refactor merge-similar - 合并相似主题的笔记",
+    "/note-refactor split-note - 将大笔记拆分成多个小主题"
+  ]
+}

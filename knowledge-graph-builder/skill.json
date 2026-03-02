@@ -1,0 +1,15 @@
+{
+  "name": "knowledge-graph-builder",
+  "version": "1.0.0",
+  "description": "Visualize and build your knowledge graph. Create hub notes, discover knowledge gaps, and suggest learning paths.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "knowledge-graph", "visualization", "learning-path"],
+  "usage": "/knowledge-graph-builder [action]",
+  "examples": [
+    "/knowledge-graph-builder visualize - 生成知识图谱可视化",
+    "/knowledge-graph-builder find-gaps - 发现知识空白",
+    "/knowledge-graph-builder create-hubs - 创建枢纽笔记（MOC）",
+    "/knowledge-graph-builder suggest-path - 建议学习路径"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "content-curator",
+  "version": "1.0.0",
+  "description": "Curate external content into Obsidian. Clip web pages, extract PDF highlights, transcribe audio/video to markdown.",
+  "author": "Claude (Claudian)",
+  "created": "2026-02-02",
+  "tags": ["obsidian", "content", "curation", "import", "multimodal"],
+  "usage": "/content-curator [action]",
+  "examples": [
+    "/content-curator clip <url> - 剪藏网页并转为 Markdown",
+    "/content-curator extract-pdf - 从 PDF 提取高亮和注释",
+    "/content-curator transcribe - 将音频/视频转为文字笔记",
+    "/content-curator auto-categorize - 自动分类导入的内容"
+  ]
+}
